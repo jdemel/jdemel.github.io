@@ -1,6 +1,7 @@
 ---
 title: "Does a github.io page work for me?"
 date: 2022-02-05T14:27:59+01:00
+author: "Johannes Demel"
 draft: false
 ---
 
