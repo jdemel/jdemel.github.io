@@ -24,8 +24,10 @@ Since I got some experience with static site generators, I decided to give Hugo 
 &lt;h2 id="professional-experience-">Professional experience 🖥️&lt;/h2>
 &lt;ul>
 &lt;li>
-&lt;p>2019 till today
-Co-maintainer of &lt;a href="https://libvolk.org">Vector-Optimized Library of Kernels (VOLK)&lt;/a>&lt;/p>
+&lt;p>2019 till today&lt;/p>
+&lt;ul>
+&lt;li>Co-maintainer of &lt;a href="https://libvolk.org">Vector-Optimized Library of Kernels (VOLK)&lt;/a>&lt;/li>
+&lt;/ul>
 &lt;/li>
 &lt;li>
 &lt;p>2016 till today&lt;/p>
