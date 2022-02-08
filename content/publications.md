@@ -13,6 +13,8 @@ This is a list of publications I compiled over the years with my [ORCID: 0000-00
 
 - Demel, Monsees, Bockelmann, Wübben, Dekorsy: [Cloud-RAN Fronthaul Rate Reduction via IBM-based Quantization for Multicarrier Systems](https://ieeexplore.ieee.org/document/9097115), 24th International ITG Workshop on Smart Antennas (WSA 2020), ISBN: 978-3-8007-5200-3
 
+- Demel, Bockelmann, Dekorsy: [Method for a sending entity and method for a receiving entity in a network environment](https://worldwide.espacenet.com/patent/search/family/069375901/publication/LU101567B1?q=pn%3DLU101567B1), patent: LU101567B1, filed: 2019-12-17, granted: 2021-06-17
+
 - Demel, Bockelmann, Dekorsy: [Industrial Radio Link Abstraction Models for Short Packet Communication with Polar Codes](https://ieeexplore.ieee.org/document/8661341), 12th International ITG Conference on Systems, Communications and Coding 2019, Rostock, Germany, DOI: [10.30420/454862044](https://doi.org/10.30420/454862044).
 
 - Rust, Karsthof, Hao, Demel, Bockelmann, Dekorsy, Siemons, Meyering, Al Houry, Mackenthun, Paul: [Hardwarearchitektur eines latenzoptimierten drahtlosen Kommunikationssystems für den industriellen Mobilfunk](https://doi.org/10.1007/978-3-662-59895-5_11), Jahreskolloquium Kommunikation in der Automation 2018, DOI: [10.1007/978-3-662-59895-5_11](https://doi.org/10.1007/978-3-662-59895-5_11)
