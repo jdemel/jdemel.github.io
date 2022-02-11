@@ -1,6 +1,6 @@
 +++
 title = "Communications Resources"
-date = "2022-02-06T13:41:41+01:00"
+date = "2022-02-11"
 author = "Johannes Demel"
 draft = true
 cover = ""
@@ -27,6 +27,14 @@ The Jupyter notebook lecture [Digital Signal Processing](https://nbviewer.org/gi
 ## Modern Coding Theory
 
 Coding theory is quite a difficult topic because it includes a lot of probability theory. Still, ["Modern Coding Theory" by Richardson and Urbanke]( https://doi.org/10.1017/CBO9780511791338) does a great job at explaining these concepts.
+
+## Essential Coding Theory
+
+This book by Venkatesan Guruswami, Atri Rudra and Madhu Sudan is a work in progress.
+The [book's overview website](https://cse.buffalo.edu/faculty/atri/courses/coding-theory/book/) contains some information on the process.
+Besides [Essential Coding Theory](https://cse.buffalo.edu/faculty/atri/courses/coding-theory/book/web-coding-book.pdf) seems to be written with some humor.
+I really enjoyed the chapter title "Information Theory Strikes Back: Polar Codes".
+Finally, the book is released under [CC-BY-NC-ND 3.0](https://creativecommons.org/licenses/by-nc-nd/3.0/).
 
 ## Digital Communications
 
