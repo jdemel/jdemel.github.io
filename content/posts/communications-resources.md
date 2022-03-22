@@ -13,6 +13,11 @@ readingTime = false
 
 Nowadays, there are quite a few resources to learn about communications engineering. While books and papers are still used for publishing, more interactive resources are obviously really helpful. Thus, I'd like to compile a list of resources I consider to be interesting. It should be obvious that people prefer different resources. I include links to online resources where they are available.
 
+## Why Do We Keep Needing New "G"s?
+SciShow has a nice intro to communications. It covers a bit of history and gives more of a 30,000 meters view.
+
+{{< youtube DQm8E8-iUwc >}}
+
 ## PySDR
 The [PySDR](https://pysdr.org/) book, or website, by Marc Lichtman is a really helpful intro to many basic concepts. It includes Python/NumPy code examples o get a better understanding of how to go from theory to simulation.
 
