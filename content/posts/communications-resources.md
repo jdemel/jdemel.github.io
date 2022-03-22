@@ -1,8 +1,8 @@
 +++
 title = "Communications Resources"
-date = "2022-02-11"
+date = "2022-03-22"
 author = "Johannes Demel"
-draft = true
+draft = false
 cover = ""
 #tags = ["", ""]
 keywords = ["communication engineering", "lecture"]
