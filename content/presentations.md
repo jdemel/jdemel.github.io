@@ -8,6 +8,19 @@ author = "Johannes Demel"
 
 This is a compilation of recorded presentations I've given.
 
+## GRCon '22 Ultra reliable low latency OTA comms in GR for automated guided vehicles
+
+At GRCon '22 [GRCon '22](https://events.gnuradio.org/event/18/) I presented: [An ultra reliable low latency over-the-air communication system in GNU Radio for automated guided vehicles](https://events.gnuradio.org/event/18/contributions/236/). This is an over-the-air demonstrator implemented in GNU Radio.
+
+{{< youtube qxWPnjVMvbA >}}
+
+
+## GRCon '22 VOLK project update
+
+At [GRCon '22](https://events.gnuradio.org/event/18/) I did a quick VOLK project update.
+
+{{< youtube _U_v7yN5cI4 >}}
+
 ## FOSDEM '21 VOLK project update
 
 At [FOSDEM '21](https://archive.fosdem.org/2021/) I held the presentation: [Vector Optimized Library of Kernels - A year in review](https://archive.fosdem.org/2021/schedule/event/fsr_vector_optimized_library_of_kernels/) in the [Free Software Radio devroom](https://archive.fosdem.org/2021/schedule/track/free_software_radio/).

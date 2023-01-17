@@ -2,7 +2,7 @@
 title = "How to tame the BeaST? Customize your Bibliography"
 date = "2022-02-11"
 author = "Johannes Demel"
-draft = true
+draft = false
 cover = ""
 tags = ["LaTeX", "BibTex"]
 keywords = ["", ""]

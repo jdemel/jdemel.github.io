@@ -18,6 +18,11 @@ SciShow has a nice intro to communications. It covers a bit of history and gives
 
 {{< youtube DQm8E8-iUwc >}}
 
+## What does the FFT say?
+This might be an interesting introduction to get a better understanding of Fourier transforms.
+
+{{<youtube spUNpyF58BY>}}
+
 ## PySDR
 The [PySDR](https://pysdr.org/) book, or website, by Marc Lichtman is a really helpful intro to many basic concepts. It includes Python/NumPy code examples o get a better understanding of how to go from theory to simulation.
 
@@ -40,6 +45,11 @@ The [book's overview website](https://cse.buffalo.edu/faculty/atri/courses/codin
 Besides [Essential Coding Theory](https://cse.buffalo.edu/faculty/atri/courses/coding-theory/book/web-coding-book.pdf) seems to be written with some humor.
 I really enjoyed the chapter title "Information Theory Strikes Back: Polar Codes".
 Finally, the book is released under [CC-BY-NC-ND 3.0](https://creativecommons.org/licenses/by-nc-nd/3.0/).
+
+
+## Wireless Communications
+
+[Wireless Communications](https://doi.org/10.1017/CBO9780511841224) by Andrea Goldsmith is one of the latest widely refered to books on wireless communications. So far I enjoy reading it.
 
 ## Digital Communications
 
