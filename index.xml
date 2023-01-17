@@ -177,7 +177,7 @@ Since I got some experience with static site generators, I decided to give Hugo 
 &lt;/li>
 &lt;/ul></content></item><item><title>Presentations</title><link>https://jdemel.github.io/presentations/</link><pubDate>Sat, 05 Feb 2022 00:00:00 +0000</pubDate><guid>https://jdemel.github.io/presentations/</guid><description>Presentations This is a compilation of recorded presentations I&amp;rsquo;ve given.
 GRCon &amp;lsquo;22 Ultra reliable low latency OTA comms in GR for automated guided vehicles At GRCon &amp;lsquo;22 GRCon &amp;lsquo;22 I presented: An ultra reliable low latency over-the-air communication system in GNU Radio for automated guided vehicles. This is an over-the-air demonstrator implemented in GNU Radio.
-GRCon &amp;lsquo;22 VOLK project update At GRCon &amp;lsquo;22 I did a quick VOLK project update.</description><content>&lt;h1 id="presentations">Presentations&lt;/h1>
+GRCon &amp;lsquo;22 VOLK project update At GRCon &amp;lsquo;22 I did a quick VOLK project update. At this point VOLK 3 is released.</description><content>&lt;h1 id="presentations">Presentations&lt;/h1>
 &lt;p>This is a compilation of recorded presentations I&amp;rsquo;ve given.&lt;/p>
 &lt;h2 id="grcon-22-ultra-reliable-low-latency-ota-comms-in-gr-for-automated-guided-vehicles">GRCon &amp;lsquo;22 Ultra reliable low latency OTA comms in GR for automated guided vehicles&lt;/h2>
 &lt;p>At GRCon &amp;lsquo;22 &lt;a href="https://events.gnuradio.org/event/18/">GRCon &amp;lsquo;22&lt;/a> I presented: &lt;a href="https://events.gnuradio.org/event/18/contributions/236/">An ultra reliable low latency over-the-air communication system in GNU Radio for automated guided vehicles&lt;/a>. This is an over-the-air demonstrator implemented in GNU Radio.&lt;/p>
@@ -185,7 +185,7 @@ GRCon &amp;lsquo;22 VOLK project update At GRCon &amp;lsquo;22 I did a quick VOL
 &lt;iframe src="https://www.youtube-nocookie.com/embed/qxWPnjVMvbA" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video">&lt;/iframe>
 &lt;/div>
 &lt;h2 id="grcon-22-volk-project-update">GRCon &amp;lsquo;22 VOLK project update&lt;/h2>
-&lt;p>At &lt;a href="https://events.gnuradio.org/event/18/">GRCon &amp;lsquo;22&lt;/a> I did a quick VOLK project update.&lt;/p>
+&lt;p>At &lt;a href="https://events.gnuradio.org/event/18/">GRCon &amp;lsquo;22&lt;/a> I did a quick VOLK project update. At this point VOLK 3 is released.&lt;/p>
 &lt;div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
 &lt;iframe src="https://www.youtube-nocookie.com/embed/_U_v7yN5cI4" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video">&lt;/iframe>
 &lt;/div>
