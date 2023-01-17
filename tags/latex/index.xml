@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>LaTeX on Johannes Demel</title><link>https://jdemel.github.io/tags/latex/</link><description>Recent content in LaTeX on Johannes Demel</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><copyright>Johannes Demel</copyright><lastBuildDate>Fri, 11 Feb 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://jdemel.github.io/tags/latex/index.xml" rel="self" type="application/rss+xml"/><item><title>How to tame the BeaST? Customize your Bibliography</title><link>https://jdemel.github.io/posts/latex_bibliography_bst/</link><pubDate>Fri, 11 Feb 2022 00:00:00 +0000</pubDate><guid>https://jdemel.github.io/posts/latex_bibliography_bst/</guid><description>I use LaTeX all the time because it does a superb job at formatting. Besides, it separates content from presentation, i.e. it is a WYTIWYG system. I guess many people actually enjoy the amalgamated WYSIWYG text editors but as soon as you write code, you separate the two anyways. The LaTeX math system is used in countless cases, e.g. via MathJax in your browser. TikZ and PGF are very useful and eventually fast and efficient to produce vector graphics.</description><content>&lt;p>I use &lt;a href="https://en.wikibooks.org/wiki/LaTeX">LaTeX&lt;/a> all the time because it does a superb job at formatting.
+Besides, it separates content from presentation, i.e. it is a WYTIWYG system.
+I guess many people actually enjoy the amalgamated WYSIWYG text editors but as soon as you write code, you separate the two anyways.
+The LaTeX math system is used in countless cases, e.g. via MathJax in your browser.
+&lt;a href="https://en.wikibooks.org/wiki/LaTeX/PGF/TikZ">TikZ and PGF&lt;/a> are very useful and eventually fast and efficient to produce vector graphics.
+You can use &lt;a href="https://matplotlib.org/stable/tutorials/text/pgf.html">matplotlib with PGF&lt;/a> to save your figures as PGF files which you can then include in your documents.
+I use &lt;a href="http://manpages.ubuntu.com/manpages/trusty/man1/qtikz.1.html">QtikZ&lt;/a> to build figures interactively.
+Thus, eventually all documents and presentations end up being done in LaTeX.
+The whole automatic reference generator feature via BibTex is also very useful.
+However, how does it work? How do I customize it?&lt;/p>
+&lt;h2 id="taming-the-beast">Taming the BeaST&lt;/h2>
+&lt;p>&lt;a href="https://www.ctan.org/pkg/tamethebeast">Taming the BeaST&lt;/a> is a good resource to get started.
+I had a look at &lt;a href="https://tex.stackexchange.com/a/64695">this Stackoverflow answer&lt;/a> as well.
+It explains the structure of &lt;code>*.bst&lt;/code> files. Well, if you want to use BibTex.
+I guess most LaTeX users still use BibTex, though more modern systems might be available such as BibLaTeX.
+I tried &lt;a href="https://pypi.org/project/pybtex/">pybtex&lt;/a> to get a better understanding of my &lt;code>*.bib&lt;/code> file.
+But now, let&amp;rsquo;s have a look at &lt;code>*.bst&lt;/code> files that you use most likely via:&lt;/p>
+&lt;pre tabindex="0">&lt;code>\bibliographystyle{your_bib_style}
+\bibliography{library}
+&lt;/code>&lt;/pre>&lt;p>in case of IEEE publications, you probably use &lt;code>\bibliographystyle{IEEEtran}&lt;/code>.
+How do you modify such a &lt;code>.bst&lt;/code> file? Let&amp;rsquo;s add a link to a DOI in your references.&lt;/p>
+&lt;pre tabindex="0">&lt;code>FUNCTION {format.doi}
+{ doi empty$
+{ &amp;#34;&amp;#34; }
+{
+new.block
+&amp;#34;DOI:\href{https://doi.org/&amp;#34; doi * &amp;#34;}{&amp;#34; * doi * &amp;#34;}&amp;#34; *
+}
+if$
+}
+&lt;/code>&lt;/pre>&lt;p>In the end, the &lt;code>format.doi&lt;/code> function takes care of correct DOI formatting.
+You can just click on a DOI in a PDF and it takes you directly to the source.
+If you print a paper, the link formatting will not clutter your pretty printed PDF.
+I prefer acronyms in all caps. Thus, I add &lt;code>DOI:&lt;/code> in the &lt;code>format.doi&lt;/code> function.
+However, I&amp;rsquo;ve seen files with &lt;code>doi:&lt;/code> before the actual DOI.&lt;/p>
+&lt;p>The &lt;a href="https://en.wikipedia.org/wiki/Reverse_Polish_notation">Reverse Polish Notation (RPN)&lt;/a> is probably the trickiest part.
+I met a few people who enjoy this notation for their calculators.
+Apparently, it hasn&amp;rsquo;t fallen out of fashion because &lt;a href="https://play.google.com/store/apps/details?id=com.ath0.rpn&amp;amp;hl=en">RPN calculators&lt;/a> still exists on modern systems.
+You probably won&amp;rsquo;t need RPN very often.
+However, it might be an interesting concept to learn.
+I guess most people don&amp;rsquo;t learn &lt;a href="https://en.wikipedia.org/wiki/Haskell_(programming_language)">Haskell&lt;/a> but it is an interesting programming language nontheless.&lt;/p>
+&lt;p>&lt;img src="https://imgs.xkcd.com/comics/haskell.png" alt="XKCD on Haskell">
+&lt;a href="https://xkcd.com/1312/">Haskell image on XKCD&lt;/a>&lt;/p>
+&lt;h2 id="generating-a-library-file">Generating a library file&lt;/h2>
+&lt;p>Personally, I use &lt;a href="https://www.zotero.org/">Zotero&lt;/a> to collect all the references I need.&lt;/p>
+&lt;ul>
+&lt;li>it is an open source system&lt;/li>
+&lt;li>I can generate a &lt;code>library.bib&lt;/code> file that I can use in all my LaTeX projects.&lt;/li>
+&lt;li>I can import new PDFs via a browser plug-in.&lt;/li>
+&lt;li>It has a merge feature.&lt;/li>
+&lt;li>it offers sync features&lt;/li>
+&lt;li>if offers premium features that really offer a benefit (more cloud storage).&lt;/li>
+&lt;li>There are &lt;a href="https://github.com/retorquere/zotero-deb/">Debian Zotero .deb repositories&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;p>Besides, it does not try to artificially lock you in like competing systems started to after Zotero gained some ground.&lt;/p>
+&lt;h2 id="zenodo-our-how-to-get-more-dois">Zenodo, our how to get more DOIs&lt;/h2>
+&lt;p>&lt;a href="https://zenodo.org/">Zenodo&lt;/a> is probably the go-to website to generate &lt;a href="https://en.wikipedia.org/wiki/Digital_object_identifier">DOIs&lt;/a> for your personal data.
+It is currently operated by CERN.
+This is especially useful for datasets and source code.
+I started to use Zenodo for &lt;a href="https://zenodo.org/record/5997648">gr-symbolmapping on Zenodo&lt;/a> which can be found via &lt;a href="https://doi.org/10.5281/zenodo.5997647">DOI: 10.5281/zenodo.5997647&lt;/a>.
+&lt;a href="https://docs.github.com/en/repositories/archiving-a-github-repository/referencing-and-citing-content">Zenodo&amp;rsquo;s GitHub integration&lt;/a> automates the process to publish new versions.
+Thus, it makes citing software, and especially open source software, more convenient in your papers.
+It helps with references to exact versions.&lt;/p></content></item></channel></rss>

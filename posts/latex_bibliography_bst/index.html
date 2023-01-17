@@ -1,0 +1,50 @@
+<!doctype html><html lang=en><head><title>How to tame the BeaST? Customize your Bibliography :: Johannes Demel</title><meta charset=utf-8><meta name=viewport content="width=device-width,initial-scale=1"><meta name=description content="I use LaTeX all the time because it does a superb job at formatting. Besides, it separates content from presentation, i.e. it is a WYTIWYG system. I guess many people actually enjoy the amalgamated WYSIWYG text editors but as soon as you write code, you separate the two anyways. The LaTeX math system is used in countless cases, e.g. via MathJax in your browser. TikZ and PGF are very useful and eventually fast and efficient to produce vector graphics."><meta name=keywords content=","><meta name=robots content="noodp"><link rel=canonical href=https://jdemel.github.io/posts/latex_bibliography_bst/><link rel=stylesheet href=https://jdemel.github.io/assets/style.css><link rel=stylesheet href=https://jdemel.github.io/assets/blue.css><link rel=apple-touch-icon href=https://jdemel.github.io/img/apple-touch-icon-192x192.png><link rel="shortcut icon" href=https://jdemel.github.io/img/favicon/blue.png><meta name=twitter:card content="summary"><meta name=twitter:site content><meta name=twitter:creator content="Johannes Demel"><meta property="og:locale" content="en"><meta property="og:type" content="article"><meta property="og:title" content="How to tame the BeaST? Customize your Bibliography"><meta property="og:description" content="I use LaTeX all the time because it does a superb job at formatting. Besides, it separates content from presentation, i.e. it is a WYTIWYG system. I guess many people actually enjoy the amalgamated WYSIWYG text editors but as soon as you write code, you separate the two anyways. The LaTeX math system is used in countless cases, e.g. via MathJax in your browser. TikZ and PGF are very useful and eventually fast and efficient to produce vector graphics."><meta property="og:url" content="https://jdemel.github.io/posts/latex_bibliography_bst/"><meta property="og:site_name" content="Johannes Demel"><meta property="og:image" content="https://jdemel.github.io"><meta property="og:image:width" content="2048"><meta property="og:image:height" content="1024"><meta property="article:published_time" content="2022-02-11 00:00:00 +0000 UTC"></head><body class=blue><div class="container center headings--one-size"><header class=header><div class=header__inner><div class=header__logo><a href=/><div class=logo>Johannes Demel</div></a></div><div class=menu-trigger>menu</div></div><nav class=menu><ul class="menu__inner menu__inner--desktop"><li><a href=/about>about me</a></li><li><a href=/presentations>presentations</a></li><li><a href=/publications>publications</a></li></ul><ul class="menu__inner menu__inner--mobile"><li><a href=/about>about me</a></li><li><a href=/presentations>presentations</a></li><li><a href=/publications>publications</a></li></ul></nav></header><div class=content><div class=post><h1 class=post-title><a href=https://jdemel.github.io/posts/latex_bibliography_bst/>How to tame the BeaST? Customize your Bibliography</a></h1><div class=post-meta><span class=post-date>2022-02-11</span>
+<span class=post-author>:: Johannes Demel</span></div><span class=post-tags>#<a href=https://jdemel.github.io/tags/latex/>LaTeX</a>&nbsp;
+#<a href=https://jdemel.github.io/tags/bibtex/>BibTex</a>&nbsp;</span><div class=post-content><div><p>I use <a href=https://en.wikibooks.org/wiki/LaTeX>LaTeX</a> all the time because it does a superb job at formatting.
+Besides, it separates content from presentation, i.e. it is a WYTIWYG system.
+I guess many people actually enjoy the amalgamated WYSIWYG text editors but as soon as you write code, you separate the two anyways.
+The LaTeX math system is used in countless cases, e.g. via MathJax in your browser.
+<a href=https://en.wikibooks.org/wiki/LaTeX/PGF/TikZ>TikZ and PGF</a> are very useful and eventually fast and efficient to produce vector graphics.
+You can use <a href=https://matplotlib.org/stable/tutorials/text/pgf.html>matplotlib with PGF</a> to save your figures as PGF files which you can then include in your documents.
+I use <a href=http://manpages.ubuntu.com/manpages/trusty/man1/qtikz.1.html>QtikZ</a> to build figures interactively.
+Thus, eventually all documents and presentations end up being done in LaTeX.
+The whole automatic reference generator feature via BibTex is also very useful.
+However, how does it work? How do I customize it?</p><h2 id=taming-the-beast>Taming the BeaST<a href=#taming-the-beast class=hanchor arialabel=Anchor>&#8983;</a></h2><p><a href=https://www.ctan.org/pkg/tamethebeast>Taming the BeaST</a> is a good resource to get started.
+I had a look at <a href=https://tex.stackexchange.com/a/64695>this Stackoverflow answer</a> as well.
+It explains the structure of <code>*.bst</code> files. Well, if you want to use BibTex.
+I guess most LaTeX users still use BibTex, though more modern systems might be available such as BibLaTeX.
+I tried <a href=https://pypi.org/project/pybtex/>pybtex</a> to get a better understanding of my <code>*.bib</code> file.
+But now, let&rsquo;s have a look at <code>*.bst</code> files that you use most likely via:</p><pre tabindex=0><code>\bibliographystyle{your_bib_style}
+\bibliography{library}
+</code></pre><p>in case of IEEE publications, you probably use <code>\bibliographystyle{IEEEtran}</code>.
+How do you modify such a <code>.bst</code> file? Let&rsquo;s add a link to a DOI in your references.</p><pre tabindex=0><code>FUNCTION {format.doi}
+{ doi empty$
+    { &#34;&#34; }
+    {
+      new.block
+      &#34;DOI:\href{https://doi.org/&#34; doi * &#34;}{&#34; * doi * &#34;}&#34; *
+    }
+  if$
+}
+</code></pre><p>In the end, the <code>format.doi</code> function takes care of correct DOI formatting.
+You can just click on a DOI in a PDF and it takes you directly to the source.
+If you print a paper, the link formatting will not clutter your pretty printed PDF.
+I prefer acronyms in all caps. Thus, I add <code>DOI:</code> in the <code>format.doi</code> function.
+However, I&rsquo;ve seen files with <code>doi:</code> before the actual DOI.</p><p>The <a href=https://en.wikipedia.org/wiki/Reverse_Polish_notation>Reverse Polish Notation (RPN)</a> is probably the trickiest part.
+I met a few people who enjoy this notation for their calculators.
+Apparently, it hasn&rsquo;t fallen out of fashion because <a href="https://play.google.com/store/apps/details?id=com.ath0.rpn&hl=en">RPN calculators</a> still exists on modern systems.
+You probably won&rsquo;t need RPN very often.
+However, it might be an interesting concept to learn.
+I guess most people don&rsquo;t learn <a href=https://en.wikipedia.org/wiki/Haskell_(programming_language)>Haskell</a> but it is an interesting programming language nontheless.</p><p><img src=https://imgs.xkcd.com/comics/haskell.png alt="XKCD on Haskell">
+<a href=https://xkcd.com/1312/>Haskell image on XKCD</a></p><h2 id=generating-a-library-file>Generating a library file<a href=#generating-a-library-file class=hanchor arialabel=Anchor>&#8983;</a></h2><p>Personally, I use <a href=https://www.zotero.org/>Zotero</a> to collect all the references I need.</p><ul><li>it is an open source system</li><li>I can generate a <code>library.bib</code> file that I can use in all my LaTeX projects.</li><li>I can import new PDFs via a browser plug-in.</li><li>It has a merge feature.</li><li>it offers sync features</li><li>if offers premium features that really offer a benefit (more cloud storage).</li><li>There are <a href=https://github.com/retorquere/zotero-deb/>Debian Zotero .deb repositories</a></li></ul><p>Besides, it does not try to artificially lock you in like competing systems started to after Zotero gained some ground.</p><h2 id=zenodo-our-how-to-get-more-dois>Zenodo, our how to get more DOIs<a href=#zenodo-our-how-to-get-more-dois class=hanchor arialabel=Anchor>&#8983;</a></h2><p><a href=https://zenodo.org/>Zenodo</a> is probably the go-to website to generate <a href=https://en.wikipedia.org/wiki/Digital_object_identifier>DOIs</a> for your personal data.
+It is currently operated by CERN.
+This is especially useful for datasets and source code.
+I started to use Zenodo for <a href=https://zenodo.org/record/5997648>gr-symbolmapping on Zenodo</a> which can be found via <a href=https://doi.org/10.5281/zenodo.5997647>DOI: 10.5281/zenodo.5997647</a>.
+<a href=https://docs.github.com/en/repositories/archiving-a-github-repository/referencing-and-citing-content>Zenodo&rsquo;s GitHub integration</a> automates the process to publish new versions.
+Thus, it makes citing software, and especially open source software, more convenient in your papers.
+It helps with references to exact versions.</p></div></div><div class=pagination><div class=pagination__title><span class=pagination__title-h>Read other posts</span><hr></div><div class=pagination__buttons><span class="button previous"><a href=https://jdemel.github.io/posts/communications-resources/><span class=button__icon>←</span>
+<span class=button__text>Communications Resources</span></a></span>
+<span class="button next"><a href=https://jdemel.github.io/posts/starting_this_website/><span class=button__text>Does a github.io page work for me?</span>
+<span class=button__icon>→</span></a></span></div></div></div></div><footer class=footer><div class=footer__inner><div class="copyright copyright--user"><span>Johannes Demel</span>
+<span>:: Theme made by <a href=https://twitter.com/panr>panr</a></span></div></div></footer><script src=https://jdemel.github.io/assets/main.js></script>
+<script src=https://jdemel.github.io/assets/prism.js></script></div></body></html>
