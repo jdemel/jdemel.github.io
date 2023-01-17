@@ -17,7 +17,7 @@ At GRCon '22 [GRCon '22](https://events.gnuradio.org/event/18/) I presented: [An
 
 ## GRCon '22 VOLK project update
 
-At [GRCon '22](https://events.gnuradio.org/event/18/) I did a quick VOLK project update.
+At [GRCon '22](https://events.gnuradio.org/event/18/) I did a quick VOLK project update. At this point VOLK 3 is released.
 
 {{< youtube _U_v7yN5cI4 >}}
 
