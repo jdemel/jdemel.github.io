@@ -1,4 +1,13 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>LaTeX on Johannes Demel</title><link>https://jdemel.github.io/tags/latex/</link><description>Recent content in LaTeX on Johannes Demel</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><copyright>Johannes Demel</copyright><lastBuildDate>Fri, 11 Feb 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://jdemel.github.io/tags/latex/index.xml" rel="self" type="application/rss+xml"/><item><title>How to tame the BeaST? Customize your Bibliography</title><link>https://jdemel.github.io/posts/latex_bibliography_bst/</link><pubDate>Fri, 11 Feb 2022 00:00:00 +0000</pubDate><guid>https://jdemel.github.io/posts/latex_bibliography_bst/</guid><description>I use LaTeX all the time because it does a superb job at formatting. Besides, it separates content from presentation, i.e. it is a WYTIWYG system. I guess many people actually enjoy the amalgamated WYSIWYG text editors but as soon as you write code, you separate the two anyways. The LaTeX math system is used in countless cases, e.g. via MathJax in your browser. TikZ and PGF are very useful and eventually fast and efficient to produce vector graphics.</description><content>&lt;p>I use &lt;a href="https://en.wikibooks.org/wiki/LaTeX">LaTeX&lt;/a> all the time because it does a superb job at formatting.
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>LaTeX on Johannes Demel</title><link>https://jdemel.github.io/tags/latex/</link><description>Recent content in LaTeX on Johannes Demel</description><generator>Hugo -- gohugo.io</generator><language>en</language><copyright>Johannes Demel</copyright><lastBuildDate>Fri, 11 Feb 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://jdemel.github.io/tags/latex/index.xml" rel="self" type="application/rss+xml"/><item><title>How to tame the BeaST? Customize your Bibliography</title><link>https://jdemel.github.io/posts/latex_bibliography_bst/</link><pubDate>Fri, 11 Feb 2022 00:00:00 +0000</pubDate><guid>https://jdemel.github.io/posts/latex_bibliography_bst/</guid><description>&lt;p>I use &lt;a href="https://en.wikibooks.org/wiki/LaTeX">LaTeX&lt;/a> all the time because it does a superb job at formatting.
+Besides, it separates content from presentation, i.e. it is a WYTIWYG system.
+I guess many people actually enjoy the amalgamated WYSIWYG text editors but as soon as you write code, you separate the two anyways.
+The LaTeX math system is used in countless cases, e.g. via MathJax in your browser.
+&lt;a href="https://en.wikibooks.org/wiki/LaTeX/PGF/TikZ">TikZ and PGF&lt;/a> are very useful and eventually fast and efficient to produce vector graphics.
+You can use &lt;a href="https://matplotlib.org/stable/tutorials/text/pgf.html">matplotlib with PGF&lt;/a> to save your figures as PGF files which you can then include in your documents.
+I use &lt;a href="http://manpages.ubuntu.com/manpages/trusty/man1/qtikz.1.html">QtikZ&lt;/a> to build figures interactively.
+Thus, eventually all documents and presentations end up being done in LaTeX.
+The whole automatic reference generator feature via BibTex is also very useful.
+However, how does it work? How do I customize it?&lt;/p></description><content>&lt;p>I use &lt;a href="https://en.wikibooks.org/wiki/LaTeX">LaTeX&lt;/a> all the time because it does a superb job at formatting.
 Besides, it separates content from presentation, i.e. it is a WYTIWYG system.
 I guess many people actually enjoy the amalgamated WYSIWYG text editors but as soon as you write code, you separate the two anyways.
 The LaTeX math system is used in countless cases, e.g. via MathJax in your browser.
@@ -35,11 +44,11 @@ I prefer acronyms in all caps. Thus, I add &lt;code>DOI:&lt;/code> in the &lt;co
 However, I&amp;rsquo;ve seen files with &lt;code>doi:&lt;/code> before the actual DOI.&lt;/p>
 &lt;p>The &lt;a href="https://en.wikipedia.org/wiki/Reverse_Polish_notation">Reverse Polish Notation (RPN)&lt;/a> is probably the trickiest part.
 I met a few people who enjoy this notation for their calculators.
-Apparently, it hasn&amp;rsquo;t fallen out of fashion because &lt;a href="https://play.google.com/store/apps/details?id=com.ath0.rpn&amp;amp;hl=en">RPN calculators&lt;/a> still exists on modern systems.
+Apparently, it hasn&amp;rsquo;t fallen out of fashion because &lt;a href="https://play.google.com/store/apps/details?id=com.ath0.rpn&amp;hl=en">RPN calculators&lt;/a> still exists on modern systems.
 You probably won&amp;rsquo;t need RPN very often.
 However, it might be an interesting concept to learn.
 I guess most people don&amp;rsquo;t learn &lt;a href="https://en.wikipedia.org/wiki/Haskell_(programming_language)">Haskell&lt;/a> but it is an interesting programming language nontheless.&lt;/p>
-&lt;p>&lt;img src="https://imgs.xkcd.com/comics/haskell.png" alt="XKCD on Haskell">
+&lt;p>&lt;img alt="XKCD on Haskell" src="https://imgs.xkcd.com/comics/haskell.png">
 &lt;a href="https://xkcd.com/1312/">Haskell image on XKCD&lt;/a>&lt;/p>
 &lt;h2 id="generating-a-library-file">Generating a library file&lt;/h2>
 &lt;p>Personally, I use &lt;a href="https://www.zotero.org/">Zotero&lt;/a> to collect all the references I need.&lt;/p>
