@@ -8,6 +8,9 @@ author = "Johannes Demel"
 
 This is a list of publications I compiled over the years with my [ORCID: 0000-0002-5434-7232]( https://orcid.org/0000-0002-5434-7232). Some of my [publications](https://www.ant.uni-bremen.de/en/staff/demel/) are also available at the [Department of Communications Engineering (ANT) homepage](https://www.ant.uni-bremen.de). My publications are listed on [Google Scholar](https://scholar.google.de/citations?user=9Z-CCAoAAAAJ&hl=en) as well.
 
+- Johannes Demel: [Software radio systems engineering for URLLC Industrie 4.0 applications](https://doi.org/10.26092/elib/3483), 2023, PhD thesis/dissertation, Shaker Verlag, DOI: [10.26092/elib/3483](https://doi.org/10.26092/elib/3483), ISBN [978-3-8440-9307-0](https://www.shaker.de/de/site/content/shop/index.asp?lang=de&ID=8&ISBN=978-3-8440-9307-0)
+
+- Demel, Bockelmann, Dekorsy: [An ultra reliable low latency Cloud RAN implementation in GNU Radio for automated guided vehicles](https://ieeexplore.ieee.org/document/10104561), 2023, 26th International ITG Workshop on Smart Antennas and 13th Conference on Systems, Communications, and Coding (WSA & SCC 2023)
 
 - Demel, Bockelmann, Dekorsy: [Burst error analysis of scheduling algorithms for 5G NR URLLC periodic deterministic communication](https://doi.org/10.1109/VTC2020-Spring48590.2020.9129493), 2020 IEEE 91st Vehicular Technology Conference (VTC2020-Spring), DOI: [VTC2020-Spring48590.2020.9129493](https://doi.org/10.1109/VTC2020-Spring48590.2020.9129493)
 

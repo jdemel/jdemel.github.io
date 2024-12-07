@@ -6,10 +6,9 @@ author = "Johannes Demel"
 
 # About me
 
-My name is Johannes Demel (he/him). I'm with the [Department of Communications Engineering (ANT)](https://www.ant.uni-bremen.de) at the [University of Bremen](https://uni-bremen.de) to pursue my PhD in Communications Engineering 📡. Besides, I'm a [GNU Radio](https://gnuradio.org) user and developer. Together with [Michael Dickens](https://github.com/michaelld), we maintain the [Vector-Optimized Library of Kernels (VOLK)](https://libvolk.org).
+My name is Johannes Demel (he/him). I'm currently with [Dedrone by Axon](https://www.dedrone.com/), writing DSP software to detect drones. Before that I pursued my my PhD in Communications Engineering 📡 with the [Department of Communications Engineering](https://www.ant.uni-bremen.de) at the [University of Bremen](https://uni-bremen.de). My dissertation [Software radio systems engineering for URLLC Industrie 4.0 applications](https://doi.org/10.26092/elib/3483) is available online. Besides, I'm a [GNU Radio](https://gnuradio.org) user and developer. Together with [Michael Dickens](https://github.com/michaelld), we maintain the [Vector-Optimized Library of Kernels (VOLK)](https://libvolk.org).
 
-
-- 🔭 I’m currently writing my PhD thesis 📕 which includes a GNU Radio demo where [AGVs](https://en.wikipedia.org/wiki/Automated_guided_vehicle) 🤖 use our communication system for ultra reliable low latency communication.
+- 🔭 I finished my PhD thesis 📕 [Software radio systems engineering for URLLC Industrie 4.0 applications](https://doi.org/10.26092/elib/3483) which includes a GNU Radio demo where [AGVs](https://en.wikipedia.org/wiki/Automated_guided_vehicle) 🤖 use our communication system for ultra reliable low latency communication.
 
 - Most of my code is hosted under my [GitHub profile](https://github.com/jdemel).
 
@@ -21,10 +20,13 @@ My name is Johannes Demel (he/him). I'm with the [Department of Communications E
 
 ## Professional experience 🖥️
 
+- 2023 till today
+    - Wireless DSP Engineer with [Dedrone by Axon](https://www.dedrone.com/) 
+    
 - 2019 till today
     - Co-maintainer of [Vector-Optimized Library of Kernels (VOLK)](https://libvolk.org)
     
-- 2016 till today
+- 2016 till 2023
     - Research Engineer with the [Department of Communications Engineering (ANT)](https://www.ant.uni-bremen.de) at the [University of Bremen](https://uni-bremen.de)
 
 - 2013 to 2014
@@ -33,8 +35,8 @@ My name is Johannes Demel (he/him). I'm with the [Department of Communications E
 
 ## Education 🎓
 
-- 2016 till today
-    - PhD student at [University of Bremen](https://uni-bremen.de) in Communications Engineering
+- 2016 till 2023
+    - PhD degree at [University of Bremen](https://uni-bremen.de) in Communications Engineering
     
 - 2012 to 2016
     - Master degree in [Electrical Engineering and Information Technology](https://www.etit.kit.edu/english/index.php) at [Karlsruhe Institute of Technology](https://kit.edu), Germany, with a focus on Communications Engineering at the [Communications Engineering Lab (CEL)](https://www.cel.kit.edu/english/index.php)

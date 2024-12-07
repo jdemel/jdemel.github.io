@@ -13,6 +13,9 @@ readingTime = false
 
 Nowadays, there are quite a few resources to learn about communications engineering. While books and papers are still used for publishing, more interactive resources are obviously really helpful. Thus, I'd like to compile a list of resources I consider to be interesting. It should be obvious that people prefer different resources. I include links to online resources where they are available.
 
+## My dissertation
+My dissertation [Software radio systems engineering for URLLC Industrie 4.0 applications](https://doi.org/10.26092/elib/3483) contains fundamentals that might help some people. Obviously, this is the reference where I have the easiest time to explain all the details.
+
 ## Why Do We Keep Needing New "G"s?
 SciShow has a nice intro to communications. It covers a bit of history and gives more of a 30,000 meters view.
 
