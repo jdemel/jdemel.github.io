@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Johannes Demel</title><link>https://jdemel.github.io/</link><description>Recent content on Johannes Demel</description><generator>Hugo -- gohugo.io</generator><language>en</language><copyright>Johannes Demel</copyright><lastBuildDate>Tue, 22 Mar 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://jdemel.github.io/index.xml" rel="self" type="application/rss+xml"/><item><title>Communications Resources</title><link>https://jdemel.github.io/posts/communications-resources/</link><pubDate>Tue, 22 Mar 2022 00:00:00 +0000</pubDate><guid>https://jdemel.github.io/posts/communications-resources/</guid><description>&lt;p>Nowadays, there are quite a few resources to learn about communications engineering. While books and papers are still used for publishing, more interactive resources are obviously really helpful. Thus, I&amp;rsquo;d like to compile a list of resources I consider to be interesting. It should be obvious that people prefer different resources. I include links to online resources where they are available.&lt;/p>
-&lt;h2 id="why-do-we-keep-needing-new-gs">Why Do We Keep Needing New &amp;ldquo;G&amp;quot;s?&lt;/h2>
-&lt;p>SciShow has a nice intro to communications. It covers a bit of history and gives more of a 30,000 meters view.&lt;/p></description><content>&lt;p>Nowadays, there are quite a few resources to learn about communications engineering. While books and papers are still used for publishing, more interactive resources are obviously really helpful. Thus, I&amp;rsquo;d like to compile a list of resources I consider to be interesting. It should be obvious that people prefer different resources. I include links to online resources where they are available.&lt;/p>
+&lt;h2 id="my-dissertation">My dissertation&lt;/h2>
+&lt;p>My dissertation &lt;a href="https://doi.org/10.26092/elib/3483">Software radio systems engineering for URLLC Industrie 4.0 applications&lt;/a> contains fundamentals that might help some people. Obviously, this is the reference where I have the easiest time to explain all the details.&lt;/p></description><content>&lt;p>Nowadays, there are quite a few resources to learn about communications engineering. While books and papers are still used for publishing, more interactive resources are obviously really helpful. Thus, I&amp;rsquo;d like to compile a list of resources I consider to be interesting. It should be obvious that people prefer different resources. I include links to online resources where they are available.&lt;/p>
+&lt;h2 id="my-dissertation">My dissertation&lt;/h2>
+&lt;p>My dissertation &lt;a href="https://doi.org/10.26092/elib/3483">Software radio systems engineering for URLLC Industrie 4.0 applications&lt;/a> contains fundamentals that might help some people. Obviously, this is the reference where I have the easiest time to explain all the details.&lt;/p>
 &lt;h2 id="why-do-we-keep-needing-new-gs">Why Do We Keep Needing New &amp;ldquo;G&amp;quot;s?&lt;/h2>
 &lt;p>SciShow has a nice intro to communications. It covers a bit of history and gives more of a 30,000 meters view.&lt;/p>
 &lt;div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
@@ -115,14 +117,14 @@ It helps with references to exact versions.&lt;/p></content></item><item><title>
 &lt;p>Since I got some experience with static site generators, I decided to give &lt;a href="https://gohugo.io/">Hugo&lt;/a> a try. Also, github.io pages need to be static. The &lt;a href="https://gnuradio.org">GNU Radio website&lt;/a> uses Hugo and I enjoy using it. Especially its local preview features are convincing.&lt;/p></description><content>&lt;p>Here we go. I try to start my own website to write about things that are on my mind. Maybe this website will just hold links to all the work I did, e.g. publications.&lt;/p>
 &lt;p>Since I got some experience with static site generators, I decided to give &lt;a href="https://gohugo.io/">Hugo&lt;/a> a try. Also, github.io pages need to be static. The &lt;a href="https://gnuradio.org">GNU Radio website&lt;/a> uses Hugo and I enjoy using it. Especially its local preview features are convincing.&lt;/p>
 &lt;p>If you get used to GitHub Actions, you quite enjoy them. They&amp;rsquo;re simple to set up and automate things. I assume most people use them to run tests for every Pull Request and Push to a git repository. &lt;a href="https://gohugo.io/hosting-and-deployment/hosting-on-github/">Hugo docs to deploy to github.io&lt;/a> look quite convenient to use CD for once.&lt;/p></content></item><item><title>About me</title><link>https://jdemel.github.io/about/</link><pubDate>Sat, 05 Feb 2022 00:00:00 +0000</pubDate><guid>https://jdemel.github.io/about/</guid><description>&lt;h1 id="about-me">About me&lt;/h1>
-&lt;p>My name is Johannes Demel (he/him). I&amp;rsquo;m with the &lt;a href="https://www.ant.uni-bremen.de">Department of Communications Engineering (ANT)&lt;/a> at the &lt;a href="https://uni-bremen.de">University of Bremen&lt;/a> to pursue my PhD in Communications Engineering 📡. Besides, I&amp;rsquo;m a &lt;a href="https://gnuradio.org">GNU Radio&lt;/a> user and developer. Together with &lt;a href="https://github.com/michaelld">Michael Dickens&lt;/a>, we maintain the &lt;a href="https://libvolk.org">Vector-Optimized Library of Kernels (VOLK)&lt;/a>.&lt;/p>
+&lt;p>My name is Johannes Demel (he/him). I&amp;rsquo;m currently with &lt;a href="https://www.dedrone.com/">Dedrone by Axon&lt;/a>, writing DSP software to detect drones. Before that I pursued my my PhD in Communications Engineering 📡 with the &lt;a href="https://www.ant.uni-bremen.de">Department of Communications Engineering&lt;/a> at the &lt;a href="https://uni-bremen.de">University of Bremen&lt;/a>. My dissertation &lt;a href="https://doi.org/10.26092/elib/3483">Software radio systems engineering for URLLC Industrie 4.0 applications&lt;/a> is available online. Besides, I&amp;rsquo;m a &lt;a href="https://gnuradio.org">GNU Radio&lt;/a> user and developer. Together with &lt;a href="https://github.com/michaelld">Michael Dickens&lt;/a>, we maintain the &lt;a href="https://libvolk.org">Vector-Optimized Library of Kernels (VOLK)&lt;/a>.&lt;/p>
 &lt;ul>
 &lt;li>
-&lt;p>🔭 I’m currently writing my PhD thesis 📕 which includes a GNU Radio demo where &lt;a href="https://en.wikipedia.org/wiki/Automated_guided_vehicle">AGVs&lt;/a> 🤖 use our communication system for ultra reliable low latency communication.&lt;/p></description><content>&lt;h1 id="about-me">About me&lt;/h1>
-&lt;p>My name is Johannes Demel (he/him). I&amp;rsquo;m with the &lt;a href="https://www.ant.uni-bremen.de">Department of Communications Engineering (ANT)&lt;/a> at the &lt;a href="https://uni-bremen.de">University of Bremen&lt;/a> to pursue my PhD in Communications Engineering 📡. Besides, I&amp;rsquo;m a &lt;a href="https://gnuradio.org">GNU Radio&lt;/a> user and developer. Together with &lt;a href="https://github.com/michaelld">Michael Dickens&lt;/a>, we maintain the &lt;a href="https://libvolk.org">Vector-Optimized Library of Kernels (VOLK)&lt;/a>.&lt;/p>
+&lt;p>🔭 I finished my PhD thesis 📕 &lt;a href="https://doi.org/10.26092/elib/3483">Software radio systems engineering for URLLC Industrie 4.0 applications&lt;/a> which includes a GNU Radio demo where &lt;a href="https://en.wikipedia.org/wiki/Automated_guided_vehicle">AGVs&lt;/a> 🤖 use our communication system for ultra reliable low latency communication.&lt;/p></description><content>&lt;h1 id="about-me">About me&lt;/h1>
+&lt;p>My name is Johannes Demel (he/him). I&amp;rsquo;m currently with &lt;a href="https://www.dedrone.com/">Dedrone by Axon&lt;/a>, writing DSP software to detect drones. Before that I pursued my my PhD in Communications Engineering 📡 with the &lt;a href="https://www.ant.uni-bremen.de">Department of Communications Engineering&lt;/a> at the &lt;a href="https://uni-bremen.de">University of Bremen&lt;/a>. My dissertation &lt;a href="https://doi.org/10.26092/elib/3483">Software radio systems engineering for URLLC Industrie 4.0 applications&lt;/a> is available online. Besides, I&amp;rsquo;m a &lt;a href="https://gnuradio.org">GNU Radio&lt;/a> user and developer. Together with &lt;a href="https://github.com/michaelld">Michael Dickens&lt;/a>, we maintain the &lt;a href="https://libvolk.org">Vector-Optimized Library of Kernels (VOLK)&lt;/a>.&lt;/p>
 &lt;ul>
 &lt;li>
-&lt;p>🔭 I’m currently writing my PhD thesis 📕 which includes a GNU Radio demo where &lt;a href="https://en.wikipedia.org/wiki/Automated_guided_vehicle">AGVs&lt;/a> 🤖 use our communication system for ultra reliable low latency communication.&lt;/p>
+&lt;p>🔭 I finished my PhD thesis 📕 &lt;a href="https://doi.org/10.26092/elib/3483">Software radio systems engineering for URLLC Industrie 4.0 applications&lt;/a> which includes a GNU Radio demo where &lt;a href="https://en.wikipedia.org/wiki/Automated_guided_vehicle">AGVs&lt;/a> 🤖 use our communication system for ultra reliable low latency communication.&lt;/p>
 &lt;/li>
 &lt;li>
 &lt;p>Most of my code is hosted under my &lt;a href="https://github.com/jdemel">GitHub profile&lt;/a>.&lt;/p>
@@ -140,13 +142,19 @@ It helps with references to exact versions.&lt;/p></content></item><item><title>
 &lt;h2 id="professional-experience-">Professional experience 🖥️&lt;/h2>
 &lt;ul>
 &lt;li>
+&lt;p>2023 till today&lt;/p>
+&lt;ul>
+&lt;li>Wireless DSP Engineer with &lt;a href="https://www.dedrone.com/">Dedrone by Axon&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>
 &lt;p>2019 till today&lt;/p>
 &lt;ul>
 &lt;li>Co-maintainer of &lt;a href="https://libvolk.org">Vector-Optimized Library of Kernels (VOLK)&lt;/a>&lt;/li>
 &lt;/ul>
 &lt;/li>
 &lt;li>
-&lt;p>2016 till today&lt;/p>
+&lt;p>2016 till 2023&lt;/p>
 &lt;ul>
 &lt;li>Research Engineer with the &lt;a href="https://www.ant.uni-bremen.de">Department of Communications Engineering (ANT)&lt;/a> at the &lt;a href="https://uni-bremen.de">University of Bremen&lt;/a>&lt;/li>
 &lt;/ul>
@@ -161,9 +169,9 @@ It helps with references to exact versions.&lt;/p></content></item><item><title>
 &lt;h2 id="education-">Education 🎓&lt;/h2>
 &lt;ul>
 &lt;li>
-&lt;p>2016 till today&lt;/p>
+&lt;p>2016 till 2023&lt;/p>
 &lt;ul>
-&lt;li>PhD student at &lt;a href="https://uni-bremen.de">University of Bremen&lt;/a> in Communications Engineering&lt;/li>
+&lt;li>PhD degree at &lt;a href="https://uni-bremen.de">University of Bremen&lt;/a> in Communications Engineering&lt;/li>
 &lt;/ul>
 &lt;/li>
 &lt;li>
@@ -233,12 +241,18 @@ It helps with references to exact versions.&lt;/p></content></item><item><title>
 &lt;p>This is a list of publications I compiled over the years with my &lt;a href="https://orcid.org/0000-0002-5434-7232">ORCID: 0000-0002-5434-7232&lt;/a>. Some of my &lt;a href="https://www.ant.uni-bremen.de/en/staff/demel/">publications&lt;/a> are also available at the &lt;a href="https://www.ant.uni-bremen.de">Department of Communications Engineering (ANT) homepage&lt;/a>. My publications are listed on &lt;a href="https://scholar.google.de/citations?user=9Z-CCAoAAAAJ&amp;hl=en">Google Scholar&lt;/a> as well.&lt;/p>
 &lt;ul>
 &lt;li>
-&lt;p>Demel, Bockelmann, Dekorsy: &lt;a href="https://doi.org/10.1109/VTC2020-Spring48590.2020.9129493">Burst error analysis of scheduling algorithms for 5G NR URLLC periodic deterministic communication&lt;/a>, 2020 IEEE 91st Vehicular Technology Conference (VTC2020-Spring), DOI: &lt;a href="https://doi.org/10.1109/VTC2020-Spring48590.2020.9129493">VTC2020-Spring48590.2020.9129493&lt;/a>&lt;/p>
+&lt;p>Johannes Demel: &lt;a href="https://doi.org/10.26092/elib/3483">Software radio systems engineering for URLLC Industrie 4.0 applications&lt;/a>, 2023, PhD thesis/dissertation, Shaker Verlag, DOI: &lt;a href="https://doi.org/10.26092/elib/3483">10.26092/elib/3483&lt;/a>, ISBN &lt;a href="https://www.shaker.de/de/site/content/shop/index.asp?lang=de&amp;ID=8&amp;ISBN=978-3-8440-9307-0">978-3-8440-9307-0&lt;/a>&lt;/p>
 &lt;/li>
 &lt;li>
-&lt;p>Demel, Monsees, Bockelmann, Wübben, Dekorsy: &lt;a href="https://ieeexplore.ieee.org/document/9097115">Cloud-RAN Fronthaul Rate Reduction via IBM-based Quantization for Multicarrier Systems&lt;/a>, 24th International ITG Workshop on Smart Antennas (WSA 2020), ISBN: 978-3-8007-5200-3&lt;/p></description><content>&lt;h1 id="publications">Publications&lt;/h1>
+&lt;p>Demel, Bockelmann, Dekorsy: &lt;a href="https://ieeexplore.ieee.org/document/10104561">An ultra reliable low latency Cloud RAN implementation in GNU Radio for automated guided vehicles&lt;/a>, 2023, 26th International ITG Workshop on Smart Antennas and 13th Conference on Systems, Communications, and Coding (WSA &amp;amp; SCC 2023)&lt;/p></description><content>&lt;h1 id="publications">Publications&lt;/h1>
 &lt;p>This is a list of publications I compiled over the years with my &lt;a href="https://orcid.org/0000-0002-5434-7232">ORCID: 0000-0002-5434-7232&lt;/a>. Some of my &lt;a href="https://www.ant.uni-bremen.de/en/staff/demel/">publications&lt;/a> are also available at the &lt;a href="https://www.ant.uni-bremen.de">Department of Communications Engineering (ANT) homepage&lt;/a>. My publications are listed on &lt;a href="https://scholar.google.de/citations?user=9Z-CCAoAAAAJ&amp;hl=en">Google Scholar&lt;/a> as well.&lt;/p>
 &lt;ul>
+&lt;li>
+&lt;p>Johannes Demel: &lt;a href="https://doi.org/10.26092/elib/3483">Software radio systems engineering for URLLC Industrie 4.0 applications&lt;/a>, 2023, PhD thesis/dissertation, Shaker Verlag, DOI: &lt;a href="https://doi.org/10.26092/elib/3483">10.26092/elib/3483&lt;/a>, ISBN &lt;a href="https://www.shaker.de/de/site/content/shop/index.asp?lang=de&amp;ID=8&amp;ISBN=978-3-8440-9307-0">978-3-8440-9307-0&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Demel, Bockelmann, Dekorsy: &lt;a href="https://ieeexplore.ieee.org/document/10104561">An ultra reliable low latency Cloud RAN implementation in GNU Radio for automated guided vehicles&lt;/a>, 2023, 26th International ITG Workshop on Smart Antennas and 13th Conference on Systems, Communications, and Coding (WSA &amp;amp; SCC 2023)&lt;/p>
+&lt;/li>
 &lt;li>
 &lt;p>Demel, Bockelmann, Dekorsy: &lt;a href="https://doi.org/10.1109/VTC2020-Spring48590.2020.9129493">Burst error analysis of scheduling algorithms for 5G NR URLLC periodic deterministic communication&lt;/a>, 2020 IEEE 91st Vehicular Technology Conference (VTC2020-Spring), DOI: &lt;a href="https://doi.org/10.1109/VTC2020-Spring48590.2020.9129493">VTC2020-Spring48590.2020.9129493&lt;/a>&lt;/p>
 &lt;/li>
